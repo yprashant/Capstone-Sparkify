@@ -19,4 +19,7 @@ After testing different machine learning classifiers with default parameters, we
 
 From an analysis perspective, we could notice that the most important features used by the classifier are the number of "thumbs up" / "thumbs down" given by user per song, number of friends added per session, percentage of songs added to playlists, number of adverts and number of songs per session; these are in line with the features we identified as most relevant during data exploration, and indeed seem to represent well customers' satisfaction or dissatisfaction with the service.
 
+## 5. Summary <a name="summary"></a>
+This capstone project is a great exercise allowing to put in practice several data science skills (data analysis, cleaning, feature extraction, machine learning pipeline creation, model evaluation and fine tuning…) to solve a problem close to those regularly encountered by customer-facing businesses.
 
+We could get a F1-score of 0.7 for churn prediction using a default classifier algorithm, and 0.73 after fine-tuning; these numbers are relatively good, though not great, maybe because we only have 225 distinct users in our subset.
