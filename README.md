@@ -12,7 +12,7 @@ Purpose of this notebook/article is, using Spark framework, to predict whether u
 * _Sparkify.html_ is the same as above but in HTML format.
 * _mini_sparkify_event_data.zip_ is a 128 MB copy of the dataset used for our notebook (JSON format).
 
-Article is available on [Medium](https://medium.com/).
+Article is available on [Medium](https://medium.com/@iprash31/capstone-sparkify-predicting-churn-967e4bcc6f8b).
 
 ## 4. Results <a name="results"></a>
 After testing different machine learning classifiers with default parameters, we achieved a F1-score of 0.7; after fine-tuning parameters (using a grid search with a random forest classifier), we could improve this to 0.73.
